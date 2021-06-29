@@ -1,7 +1,7 @@
-if exists("g:loaded_paste_replace") || &cp
+if exists("g:loaded_folder") || &cp
   finish
 endif
-let g:loaded_paste_replace = 1 " version number
+let g:loaded_folder = 1 " version number
 let s:keepcpo = &cpo
 set cpo&vim
 
